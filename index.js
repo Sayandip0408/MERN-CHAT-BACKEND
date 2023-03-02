@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://vermillion-crisp-5a9a1e.netlify.app/",
+    origin: "https://vermillion-crisp-5a9a1e.netlify.app",
     credentials: true,
   },
 });
